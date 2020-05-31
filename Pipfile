@@ -17,6 +17,7 @@ django-cors-middleware = "*"
 gunicorn = "*"
 whitenoise = "*"
 django-health-check = "*"
+faker = "*"
 
 [requires]
 python_version = "3.6"

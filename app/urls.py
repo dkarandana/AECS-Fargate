@@ -6,5 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('oauth/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('user/', include("users.urls")),
+    path('orders/', include("orders.urls")),
+    path('delivery/', include("delivery.urls")),
     path('ht', include('health_check.urls')),
 ]

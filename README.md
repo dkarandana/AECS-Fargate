@@ -57,8 +57,6 @@
     python manage.py createsuperuser
 ```
 
-docker run --env-file .env -p 8000:80 django_app
-
 - install aws cli
 https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 ```
